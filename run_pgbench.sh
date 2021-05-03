@@ -25,6 +25,7 @@ else
 	-j ${PGBENCH_JOBS} \
 	-c ${PGBENCH_CLIENTS} \
 	-T ${PGBENCH_TIME} \
+	${EXTRA_FLAGS} \
 	${PGBENCH_DB}	
 
 fi
